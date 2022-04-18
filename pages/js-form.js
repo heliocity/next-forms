@@ -49,9 +49,9 @@ export default function PageWithJSbasedForm() {
       </p>
 
       <form onSubmit={handleSubmit}>
-        <label htmlFor="first">First Name</label>
+        <label htmlFor="first">First Name (이름)</label>
         <input type="text" id="first" name="first" required />
-        <label htmlFor="last">Last Name</label>
+        <label htmlFor="last">Last Name (성)</label>
         <input type="text" id="last" name="last" required />
 
         <button type="submit">Submit</button>
